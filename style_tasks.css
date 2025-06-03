@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=FreeMono&display=swap');
+
+* {
+    font-family: 'FreeMono', monospace;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.task-actions {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.complete-btn {
+    background-color: #8f3a4c;
+    color: white;
+    border: none;
+}
+
+.edit-btn {
+    background-color: #b64a67;
+    color: white;
+    border: none;
+}
+
+.delete-btn {
+    background-color: #ce436f;
+    color: white;
+    border: none;
+}
+
+.task-time {
+    color: #666;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
